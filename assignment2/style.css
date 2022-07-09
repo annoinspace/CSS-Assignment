@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto/Roboto-Regular.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto/Roboto-LightItalic.ttf) format('truetype');
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto/Roboto-Bold.ttf);
+    font-style: oblique;
+    font-weight: bold;
+   
+}
+
+html, body{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+       
+}
+
+
+.section1 {
+    background-color:#1F2937;
+    color:#FFFFFF;
+    height:500px;
+    width: 100vw;
+    /* border: 1px solid red; */
+   
+}
+
+header{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+#headerlogo{
+    font: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav__links{
+    list-style: none;
+ }
+
+.nav__links li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+a:link{
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#herocontent{
+    display: flex;
+}
+
+#herosection{
+    margin-left: 10%;
+    height:350px;
+    width: 80%;
+    /* border: 2px dotted pink; */
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+
+#herosection_image{
+    margin-right: 10%;
+    height:350px;
+    width: 40%;
+    /* border: 2px dotted pink; */
+    object-position: right;
+    
+    
+}
+
+.header_text{
+    /* border: 10px dotted green; */
+    height: 350px;
+    width: 550px;
+}
+
+.herotext{
+    font: 'Roboto', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 48px;
+    /* border: 1px solid red; */
+    /* height:110px;
+    width: 550px; */
+    margin-top: 80px;
+}
+
+.hero_subtext{
+    font: 'Roboto';
+    font-style: normal;
+    hyphens: none;
+    /* border: 1px solid red; */
+    height:100px;
+    width: 550px;
+}
+
+.button1{
+    color: white;
+    padding:6px 30px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.headerimage{
+    height: 300px;
+    width: 550px;
+    /* border: 1px solid red; */
+    float: right;
+}
+
+.section2 {
+    background-color: #FFFFFF;
+    color: #000;
+    height:500px;
+    width: 100vw;
+    text-align: center;
+    /* border: 1px solid red; */
+          
+}
+
+#informationheader{
+    font: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.gallery{
+    display:flex;
+    justify-content: center;
+}
+
+.image-style{
+    width:150px;
+    height:150px;
+    /* margin:5px; */
+    border:3px solid #3882F6;
+    border-radius: 10%;
+}
+
+figcaption{
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    /* margin: 5px; */
+
+}
+
+.captionbox{
+    width:150px;
+    height:90px;
+    border:none;
+    margin-bottom: 80px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    color:#000;
+    height:500px;
+    width: 100vw;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.blockquote{
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+}
+
+.blockquote__text{
+    font: 'Roboto';
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    padding-top:10% ;
+    
+}
+
+.blockquote__text--author{
+    font: 'Roboto';
+    font-weight: bolder;
+    text-align: right;
+}
+
+.section4 {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    height:500px;
+    width: 100vw;
+    /* border: 1px solid red; */
+}
+
+.call_to_action_position{
+    padding-top:10% ;
+}
+
+.call_to_action{
+    height: 150px;
+    width: 900px;
+    border: 1px #3882F6;
+    border-radius: 5px;
+    background-color: #3882F6;
+    margin-inline-start: 20%;
+    margin-inline-end:20%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.call_to_action_text{
+    margin-inline-start: 10%;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+
+.button2{
+    color: white;
+    height: 30px;
+    width: 90px;
+    padding:1px 10px;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+.button2_position{
+    padding-top: 50px;
+    
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+
+}
+
+.footer_text{
+    background-color: #1F2937;
+    text-align: center;
+    width:100vw;
+    padding-top:40px;
+    padding-bottom: 40px;
+    
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    max-height: 2000px;
+}
